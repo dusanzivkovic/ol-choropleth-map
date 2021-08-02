@@ -1,0 +1,52 @@
+html, body {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    font-family: sans-serif;
+  }
+
+#map {
+    position: absolute;
+    height: 100%;
+    width: 100%;
+  }
+
+#status {
+    top: 15px;
+    right: 10px;
+    border-radius: 4px;
+    box-shadow: 0 0 15px rgba(0,0,0,0.2);
+    position: absolute;
+    padding: 0 0.5rem;
+    line-height: 0.8;
+    width: 180px;
+    background-color: #fff;
+}
+
+#status h4 {
+  color: #777;
+}
+
+.sov {
+  font-weight: bold;
+}
+
+#legend {
+  bottom: 45px;
+  right: 10px;
+  border-radius: 4px;
+  box-shadow: 0 0 15px rgba(0,0,0,0.2);
+  position: absolute;
+  padding: 0 0.5rem;
+  background-color: #fff;
+  line-height: 0.5;
+  font-size: 15px;
+}
+
+#legend p span {
+  height: 15px;
+  width: 15px;
+  border-radius: 50%;
+  display: inline-block;
+  margin-right: 10px;
+}
